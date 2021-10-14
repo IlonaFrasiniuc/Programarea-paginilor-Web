@@ -33,13 +33,21 @@ text-align: center
 
 footer{
     background-size:cover;
+    color: white;
    width:100%;
     background: #475E63;
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
 ul[class="site-navigation"]{
     background:#6697A0;
     display: inline-block;
+}
+
+h2{
+    overflow: hidden;
+	color: transparent;
 }
