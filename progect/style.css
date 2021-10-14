@@ -3,9 +3,8 @@
     padding: 0;
     border: 0;
 }
-main [class="container"] {
-    background: url('..imag/fone.jpg');
-    height: 100vh;
+body{
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +22,6 @@ font-style: italic;
 font-weight: normal;
 font-size: 100px;
 line-height: 150px;
-background: #E5E5E5;
 text-align: center
 }
 
