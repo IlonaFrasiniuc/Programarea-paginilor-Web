@@ -4,11 +4,14 @@
     border: 0;
 }
 body{
-    height: 100%;
+    height: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: auto;
+    background-position: top;
 }
+
+.page-body
+
 header{
     background-size:cover;
    width:100%;
@@ -17,7 +20,7 @@ background-repeat:repeat;
 }
 
 h1{color: #0D333A;
-    font-family: Miama;
+    font-family: "Brush Script MT", cursive; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 font-style: italic;
 font-weight: normal;
 font-size: 100px;
@@ -25,27 +28,63 @@ line-height: 150px;
 text-align: center
 }
 
-[class="feature-item"]{
-    color: #103B43;
+.main-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-navigation-wrapper{
+    width: 100%;
+    background-color: var(#475E63);
+}
+.features{
+margin-bottom: 80px;
+
+}
+
+.site-navigation{
+    display: block;
+}
+
+.features-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 39px;
+    margin-right: 39px;
+}
+
+.features-item {
+    margin: 0px 10px;
+
+}
+
+h3{
+color: #0D333A;
+font-size: 30px;
 }
 
 footer{
-    background-size:cover;
-    color: white;
-   width:100%;
-    background: #475E63;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-
-ul[class="site-navigation"]{
-    background:#6697A0;
-    display: inline-block;
+background-size:cover;
+color: white;
+width:100%;
+background: #475E63;
+position: absolute;
+bottom: 0;
+left: 0;
 }
 
 h2{
     overflow: hidden;
 	color: transparent;
+}
+
+.quote{ color:#0D333A;
+    position: 3; 
+    font-style: italic;
+    margin-right: 365px;
+    text-align: right;
 }

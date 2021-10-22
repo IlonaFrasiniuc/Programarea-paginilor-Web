@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-size:cover;
+   width:100%;
+background: #6697A0;
+background-repeat:repeat;
+}
+footer{
+    background-size:cover;
+    color: white;
+   width:100%;
+    background: #475E63;
+    position: absolute;
+    left: 0;
+}
+h2{
+    overflow: hidden;
+	color: transparent;
+}

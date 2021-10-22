@@ -1,0 +1,8 @@
+ <section class="images">
+<img src="imag/img2.jpg">
+<img src="imag/img3.jpg">
+<img src="imag/img4.jpg">
+</section>
+
+
+class="page-body" background="imag/image 1.png")>
