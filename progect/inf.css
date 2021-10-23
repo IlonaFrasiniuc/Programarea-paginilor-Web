@@ -3,12 +3,49 @@
     padding: 0;
     border: 0;
 }
-header{
-    background-size:cover;
-   width:100%;
-background: #6697A0;
-background-repeat:repeat;
+
+.page-body
+nav{
+    width: 1500px;
+    margin: 0 auto;
 }
+
+nav:before{
+    content: ' ';
+    display: block;
+    height: 80px;
+    width: 100%;
+    background-color: #6697A0;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 80px;
+}
+
+.user-navigation{
+    float: left;
+}
+
+.user-navigation a{
+    color: black;
+    display: block;
+    height: 80px;
+    padding: 0 50px;
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 28px;
+}
+
+.user-navigation a:hover{
+    background: #86b1aa;
+}
+
 footer{
     background-size:cover;
     color: white;
