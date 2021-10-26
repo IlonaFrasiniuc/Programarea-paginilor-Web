@@ -46,6 +46,79 @@ ul{
     background: #86b1aa;
 }
 
+h1{
+    color: #103B43;
+    font-style: italic;
+    font-family: Old Standard TT;
+    font-weight: normal;
+    font-size: 48px;
+    margin-left: 95px;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+    font-family: Old Standard TT;
+    margin-left: 74px;
+    line-height: 20px;
+}
+
+.sub-inf{
+    text-decoration: none;
+    color: black;
+    font-family: Old Standard TT;
+    line-height: 20px;
+}
+
+h3{
+    color: #103B43;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Old Standard TT;
+    font-size: 26px;
+    margin-left: 53px;
+    line-height: 60px;
+}
+
+.services-list{
+    list-style-type: disc;
+    font-family: Old Standard TT;
+    font-size: 24px;
+    list-style-type: disc;
+    margin-left: 40px;
+
+}
+
+.image{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background-size:cover;
     color: white;
