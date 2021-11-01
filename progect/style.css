@@ -3,15 +3,8 @@
     padding: 0;
     border: 0;
 }
-body{
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 .page-body
-
 nav{
     width: 1500px;
     margin: 0 auto;
@@ -53,10 +46,16 @@ ul{
     background: #86b1aa;
 }
 
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+}
 
-
-
-h1{color: #0D333A;
+.main-h1{color: #0D333A;
     font-family: "Brush Script MT", cursive; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 font-style: italic;
 font-weight: normal;
@@ -105,16 +104,6 @@ color: #0D333A;
 font-size: 30px;
 }
 
-footer{
-background-size:cover;
-color: white;
-width:100%;
-background: #475E63;
-position: absolute;
-bottom: 0;
-left: 0;
-}
-
 h2{
     overflow: hidden;
 	color: transparent;
@@ -125,4 +114,69 @@ h2{
     font-style: italic;
     margin-right: 365px;
     text-align: right;
+}
+
+.h1{
+    color: #103B43;
+    font-style: italic;
+    font-family: Old Standard TT;
+    font-weight: normal;
+    font-size: 48px;
+    margin-left: 95px;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+    font-family: Old Standard TT;
+    margin-left: 74px;
+    line-height: 20px;
+}
+
+.sub-inf{
+    text-decoration: none;
+    color: black;
+    font-family: Old Standard TT;
+    line-height: 20px;
+}
+
+.services-h3{
+    color: #103B43;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Old Standard TT;
+    font-size: 26px;
+    margin-left: 53px;
+    line-height: 60px;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 633px 640px;
+    grid-template-rows: 375px 400px;
+    margin-left: 67px;
+    gap: 50px 50px;
+}
+
+.services-list{
+    list-style-type: disc;
+    font-family: Old Standard TT;
+    font-size: 24px;
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+.main-footer{
+    padding: 10px;
+    background-color: #475E63;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*position: relative;*/
+ }
+
+.footer-information{
+    color: white;
+    
 }
