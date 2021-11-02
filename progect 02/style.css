@@ -1,0 +1,46 @@
+*{
+    margin: 0 0 0 0;
+}
+
+body{
+    background-image: url(https://sun9-7.userapi.com/impg/kpl3UxxMMsB-rzgMyXS6XcehvxYfqhOf-dAcgA/02sdVeWaXZw.jpg?size=1600x941&quality=96&sign=a47da584e362bf07d15ced629640e973&type=album);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #6697A0;
+    height: 142px;
+    align-items: center;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header nav a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+}
+
+section h1{
+    text-align: center;
+    color: #0D333A;
+    font-size: 100px;
+    font-family: "Brush Script MT", cursive;
+    line-height: 150px;
+}
+
+section p{
+    margin-right: 365px;
+    text-align: right;
+    font-style: italic;
+    color: #0D333A;
+    font-size: 20px;
+}
