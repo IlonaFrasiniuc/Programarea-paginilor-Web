@@ -29,7 +29,7 @@ header nav a{
     font-size: 36px;
 }
 
-section h1{
+section#main h1{
     text-align: center;
     color: #0D333A;
     font-size: 100px;
@@ -37,10 +37,30 @@ section h1{
     line-height: 150px;
 }
 
-section p{
+section#main p#q{
     margin-right: 365px;
     text-align: right;
     font-style: italic;
     color: #0D333A;
     font-size: 20px;
 }
+
+section#art{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-left: 60px;
+    align-items: flex-start;
+}
+
+section article h2{
+    color: #0D333A;
+    font-size: 48px;
+    font-style: inherit;
+}
+
+section article p {
+    font-size: 18px;
+}
+
