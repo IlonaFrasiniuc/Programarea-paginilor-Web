@@ -50,7 +50,7 @@ section#art{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    margin-left: 60px;
+    margin-left: 11%;
     align-items: flex-start;
 }
 
