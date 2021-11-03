@@ -64,3 +64,10 @@ section article p {
     font-size: 18px;
 }
 
+footer{
+    display: grid;
+    outline: 2px solid red;
+    height: 103px;
+    background-color: #475E63;
+    color: white;
+}
