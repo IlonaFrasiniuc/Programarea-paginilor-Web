@@ -2,13 +2,6 @@
     margin: 0 0 0 0;
 }
 
-body{
-    background-image: url(https://sun9-7.userapi.com/impg/kpl3UxxMMsB-rzgMyXS6XcehvxYfqhOf-dAcgA/02sdVeWaXZw.jpg?size=1600x941&quality=96&sign=a47da584e362bf07d15ced629640e973&type=album);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 header{
     display: grid;
     grid-template-columns: 1fr;
@@ -29,7 +22,7 @@ header nav a{
     font-size: 36px;
 }
 
-section#main h1{
+section#main h1#main{
     text-align: center;
     color: #0D333A;
     font-size: 100px;
@@ -54,15 +47,27 @@ section#art{
     align-items: flex-start;
 }
 
-section article h2{
+section#art article h2{
     color: #0D333A;
     font-size: 48px;
     font-style: inherit;
 }
 
-section article p {
+section#art article p {
     font-size: 18px;
 }
+
+section h1{
+    color: #103B43;
+    font-family: Old Standard TT;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+
+
 
 footer{
     display: grid;
@@ -71,3 +76,4 @@ footer{
     background-color: #475E63;
     color: white;
 }
+
