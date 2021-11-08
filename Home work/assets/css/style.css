@@ -80,3 +80,72 @@ section#main div a.button{
     text-decoration: none;
     font-family: Nunito;
 }
+
+section header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 0px;
+    font-family: Nunito;
+}
+
+section#about article header{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-bottom: 0px;
+    font-family: Nunito;
+}
+
+section header h2{
+    font-size: 72px;
+    color: rgba(34, 34, 34, 0.1);
+    font-family: Nunito;
+}
+
+section#about article#first{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+section#about article#first img{
+    display: grid;
+    grid-row-start: span 2;
+}
+
+section#about article#first header{
+    color:#3E3F43;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    width: 448px;
+}
+
+p{
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+section#about article#second{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+section#about article#second img{
+    display: grid;
+   /* grid-column-start: 5;*/
+}
+
+section#about article#second header{
+    font-size: 36px;
+    display: grid;
+    grid-column-start: span 3;
+}
+
+section#categories article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
