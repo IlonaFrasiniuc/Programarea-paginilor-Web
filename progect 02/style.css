@@ -44,7 +44,7 @@ section#main p#q{
     font-size: 20px;
 }
 
-section#art{
+.art{
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -53,17 +53,22 @@ section#art{
     align-items: flex-start;
 }
 
-section#art article h2{
+.art article h2{
     color: #0D333A;
     font-size: 48px;
     font-style: inherit;
 }
 
-section#art article p {
+.art article p {
     font-size: 18px;
 }
 
-section h1{
+.predloj{
+    margin-left: 40px;
+    margin-top: 13px;
+}
+
+.predloj h1{
     color: #103B43;
     font-family: Old Standard TT;
     font-style: italic;
@@ -72,7 +77,38 @@ section h1{
     line-height: 59px;
 }
 
+.predloj h5{
+    font-family: Old Standard TT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
 
+.predloj h3{
+    margin-top: 10px;
+    font-family: Old Standard TT;
+    font-style: italic;
+    font-weight: normal;
+    color: #103B43;
+    font-size: 48px;
+}
+
+.predloj article ul{
+    margin-top: 23px;
+    font-family: Old Standard TT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.predloj img{
+    margin-top: 15px;
+}
+
+.predloj article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 
 footer{
