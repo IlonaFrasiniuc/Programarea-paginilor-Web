@@ -6,6 +6,11 @@ body{
     position: absolute;
 }
 
+body#else{
+    height: 310vh;
+    position: absolute;
+}
+
 header{
     display: grid;
     grid-template-columns: 1fr;
@@ -65,7 +70,7 @@ section#main p#q{
 
 .predloj{
     margin-left: 40px;
-    margin-top: 13px;
+    margin-top: 40px;
 }
 
 .predloj h1{
@@ -75,6 +80,7 @@ section#main p#q{
     font-weight: normal;
     font-size: 48px;
     line-height: 59px;
+    margin-left: 95px;
 }
 
 .predloj h5{
@@ -82,6 +88,7 @@ section#main p#q{
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
+    margin-left: 75px;
 }
 
 .predloj h3{
@@ -91,9 +98,10 @@ section#main p#q{
     font-weight: normal;
     color: #103B43;
     font-size: 48px;
+    margin-left: 53px;
 }
 
-.predloj article ul{
+.predloj article#use ul{
     margin-top: 23px;
     font-family: Old Standard TT;
     font-style: normal;
@@ -105,11 +113,17 @@ section#main p#q{
     margin-top: 15px;
 }
 
-.predloj article{
+.predloj article#use{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
+.predloj h3#else{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+}
 
 footer{
     position: absolute;
