@@ -1,6 +1,10 @@
 *{
     margin: 0 0 0 0;
 }
+body{
+    height: 130vh;
+    position: absolute;
+}
 
 header{
     display: grid;
@@ -8,6 +12,8 @@ header{
     background-color: #6697A0;
     height: 142px;
     align-items: center;
+    padding-left: 210px;
+    padding-right: 210px;
 }
 
 header nav{
@@ -70,8 +76,12 @@ section h1{
 
 
 footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: grid;
-    outline: 2px solid red;
+    align-items: center;
     height: 103px;
     background-color: #475E63;
     color: white;
