@@ -158,7 +158,7 @@ section#main p#q{
 
 }
 
-footer{
+/*footer{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -168,7 +168,7 @@ footer{
     height: 103px;
     background-color: #475E63;
     color: white;
-}
+}*/
 
 div form{
     margin-top: 15px;
@@ -190,3 +190,34 @@ form input:focus{
     border: 0.5px solid #6D8C92;;
     width: 1298px;
 }
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    align-items: center;
+    height: 103px;
+    background-color: #475E63;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 800px;
+}
+
+footer section#adress{
+    margin-left: 20px;
+}
+
+footer .icon{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+}
+
