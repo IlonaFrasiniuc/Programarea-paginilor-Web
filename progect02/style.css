@@ -20,9 +20,13 @@ body#else{
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100%;*/
-    background-image: url(../progect02/img/image\ 16.png);
-    background-size: 220px, 220px;
+    background-image: url(../progect02/img/image\ 17fon.png);
+    background-size: 550px, 500px;
     background-color: transparent 50%;
+}
+
+body#elses{
+    height: 350vh;
 }
 
 header{
@@ -166,3 +170,23 @@ footer{
     color: white;
 }
 
+div form{
+    margin-top: 15px;
+   margin-left: 48px;
+}
+
+form input{
+    color: white;
+    font-size: 36px;
+    width: 1200px;
+    height: 77.07px;
+    border-radius: 42px;
+    border: 0.5px solid #6D8C92;
+    background: #6D8C92;
+    transition: .3s linear;
+}
+
+form input:focus{
+    border: 0.5px solid #6D8C92;;
+    width: 1298px;
+}
