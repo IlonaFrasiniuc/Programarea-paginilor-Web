@@ -219,3 +219,32 @@ footer .icon{
     grid-template-columns: repeat(4, 80px);
 }
 
+.strani{
+    color: #103B43;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.art-strani{
+    margin-left: 150px;
+    margin-right: 250px;
+}
+
+h1{
+    color: #103B43;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: Old Standard TT;
+    font-style: italic;
+    font-weight: normal;
+}
+
+art-strani#germania img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
