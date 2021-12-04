@@ -1,0 +1,22 @@
+ul li a{
+    font-size: 48px;
+    text-decoration: none;
+    color: black;
+}
+
+.home-body{
+    background-image: url(img/image\ 1.png);
+    background-repeat: no-repeat;
+}
+
+ul{
+    background-color: #6697A0;
+    text-decoration: none;
+    margin-bottom: 70px; 
+
+}
+
+ul li .nav-link{
+    color: black;
+    font-size: 36px;
+}
