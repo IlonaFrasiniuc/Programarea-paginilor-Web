@@ -1,22 +1,84 @@
-ul li a{
-    font-size: 48px;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Miss+Fajardose&display=swap');
+*{
+    margin-left: 0px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-60{
+    margin-top:60px;
+}
+.mt-110{
+    margin-top: 110px;
+}
+.ml-115{
+    margin-left: 115px ;
+}
+.mr-85{
+    margin-right: 85px ;
+}
+
+.mr-115{
+    margin-right: 115px ;
+}
+
+
+body{
+    background-color: #171D2B;
+}
+
+.offcanvas-title#offcanvasNavbarLabel{
+    color: #BFBBBB;
+}
+
+#offcanvasNavbar{
+    background-color: #292f3d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: grey;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #BFBBBB;
+}
+
+.title{
+    font-family: "Miss Fajardose";
+    font-size: 144px;
+    color: #BFBBBB;
+    margin-top: 318px;
+}
+
+.example-content-secondary{
+    color: #171D2B;
+}
+
+.link-secondary{
     text-decoration: none;
-    color: black;
 }
 
-.home-body{
-    background-image: url(img/image\ 1.png);
-    background-repeat: no-repeat;
-}
-
-ul{
-    background-color: #6697A0;
-    text-decoration: none;
-    margin-bottom: 70px; 
-
-}
-
-ul li .nav-link{
-    color: black;
+.link-secondary{
     font-size: 36px;
+    
 }
