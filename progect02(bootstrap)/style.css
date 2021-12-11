@@ -12,6 +12,11 @@
 .ml-10{
     margin-left: 10px;
 }
+
+.mr-25{
+    margin-right: 25px;
+}
+
 .mr-10{
     margin-right: 10px;
 }
@@ -27,6 +32,11 @@
 .mt-60{
     margin-top:60px;
 }
+
+.mt-200{
+    margin-top: 200px;
+}
+
 .mt-110{
     margin-top: 110px;
 }
@@ -75,12 +85,6 @@ body{
     text-decoration: none;
 }
 
-/*button{
-    width: 328px;
-    height: 97px;
-    border-radius: 0px;
-}*/
-
 p{
     color: #BFBBBB;
 }
@@ -89,9 +93,13 @@ p{
     font-family: "Miss Fajardose";
     font-size: 144px;
     color: #BFBBBB;
-    margin-top: 318px;
 }
 
 .example-content-secondary{
     color: #171D2B;
+}
+
+.navbar-brand{
+    font-family: "Miss Fajardose";
+    font-size: 25px;
 }
