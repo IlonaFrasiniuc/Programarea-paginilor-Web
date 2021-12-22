@@ -13,6 +13,10 @@
     margin-left: 10px;
 }
 
+.ml-25{
+    margin-left: 25px;
+}
+
 .mr-25{
     margin-right: 25px;
 }
@@ -53,53 +57,4 @@
 
 .mr-115{
     margin-right: 115px ;
-}
-
-
-body{
-    background-color: #171D2B;
-}
-
-.offcanvas-title#offcanvasNavbarLabel{
-    color: #BFBBBB;
-}
-
-#offcanvasNavbar{
-    background-color: #292f3d;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: grey;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #BFBBBB;
-}
-
-.link-secondary{
-    font-size: 36px;
-    margin-left: 70px;
-    margin-right: 70px;
-    text-align: center;
-    text-decoration: none;
-}
-
-p{
-    color: #BFBBBB;
-}
-
-.title{
-    font-family: "Miss Fajardose";
-    font-size: 144px;
-    color: #BFBBBB;
-}
-
-.example-content-secondary{
-    color: #171D2B;
-}
-
-.navbar-brand{
-    font-family: "Miss Fajardose";
-    font-size: 25px;
 }
