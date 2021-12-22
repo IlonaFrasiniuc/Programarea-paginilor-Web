@@ -3,8 +3,8 @@
     margin-left: 0px;
 }
 
-.mt-10{
-    margin-top: 10px;
+.mt-15{
+    margin-top: 15px;
 }
 .mb-10{
     margin-bottom: 10px;
@@ -57,4 +57,28 @@
 
 .mr-115{
     margin-right: 115px ;
+}
+
+.ml-450{
+    margin-left: 450px;
+}
+
+.navbar{
+    background-color: #7B9588;
+}
+
+.navbar-brand{
+    font-family: Miss Fajardose;
+    font-size: 44px;
+}
+
+body{
+    background-image: url(img/main3.png);
+    background-repeat: no-repeat;
+}
+
+.h1{
+    font-family: Miss Fajardose;
+    font-size: 150px;
+
 }
