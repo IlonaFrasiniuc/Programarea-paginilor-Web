@@ -80,5 +80,15 @@ body{
 .h1{
     font-family: Miss Fajardose;
     font-size: 150px;
+}
 
+.btn{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.px-70{
+    padding-left: 70px;
+    padding-right: 70px;
 }
