@@ -59,6 +59,10 @@
     margin-right: 115px ;
 }
 
+.ml-32{
+    margin-left: 32px;
+}
+
 .ml-450{
     margin-left: 450px;
 }
@@ -73,13 +77,13 @@
 }
 
 body{
-    background-image: url(img/zyro-image_photo-resizer.ru\ \(3\).png);
     background-repeat: no-repeat;
 }
 
 .h1{
     font-family: Miss Fajardose;
     font-size: 150px;
+    text-align: center;
 }
 
 .btn{
@@ -88,7 +92,20 @@ body{
     font-weight: bold;
 }
 
+.link-light{
+    text-decoration: none;
+}
+
 .px-70{
     padding-left: 70px;
     padding-right: 70px;
+}
+
+.h5{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.nav{
+    background-color: #7B9588;
 }
