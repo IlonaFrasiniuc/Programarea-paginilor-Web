@@ -166,13 +166,14 @@ form input{
     border-radius: 42px;
     border: 0.5px solid #6D8C92;
     background: #6D8C92;
-    transition: .3s linear;
+}
+   /* transition: .3s linear;
 }
 
 form input:focus{
     border: 0.5px solid #6D8C92;;
     width: 1298px;
-}
+}*/
 
 footer{
     position: absolute;
