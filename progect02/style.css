@@ -198,7 +198,7 @@ footer .icon{
     grid-template-columns: repeat(4, 80px);
 }
 
-.strani{
+.country{
     color: #103B43;
     font-size: 30px;
     font-weight: normal;
@@ -208,7 +208,7 @@ footer .icon{
     margin-top: 15px;
 }
 
-.art-strani{
+.art-country{
     margin-left: 150px;
     margin-right: 150px;
 }
