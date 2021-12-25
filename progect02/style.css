@@ -81,12 +81,12 @@ section#main p#q{
     font-size: 18px;
 }
 
-.predloj{
+.offer{
     margin-left: 40px;
     margin-top: 40px;
 }
 
-.predloj h1{
+.offer h1{
     color: #103B43;
     font-family: Old Standard TT;
     font-style: italic;
@@ -96,7 +96,7 @@ section#main p#q{
     margin-left: 95px;
 }
 
-.predloj h5{
+.offer h5{
     font-family: Old Standard TT;
     font-style: normal;
     font-weight: normal;
@@ -104,7 +104,7 @@ section#main p#q{
     margin-left: 75px;
 }
 
-.predloj h3{
+.offer h3{
     margin-top: 10px;
     font-family: Old Standard TT;
     font-style: italic;
@@ -114,7 +114,7 @@ section#main p#q{
     margin-left: 53px;
 }
 
-.predloj article#use ul{
+.offer article#use ul{
     margin-top: 23px;
     font-family: Old Standard TT;
     font-style: normal;
@@ -122,29 +122,29 @@ section#main p#q{
     font-size: 36px;
 }
 
-.predloj img{
+.offer img{
     margin-top: 15px;
 }
 
-.predloj article#use{
+.offer article#use{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.predloj h3#else{
+.offer h3#else{
     font-family: Roboto;
     font-style: italic;
     font-weight: normal;
     font-size: 28px;
 }
 
-.predloj .ideas {
+.offer .ideas {
     margin-right: 100px;
     margin-left: 40px;
     
 }
 
-.predloj .ideas h6{
+.offer .ideas h6{
     margin-top: 25px;
     margin-bottom: 10px;
     font-size: 24px;
