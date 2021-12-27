@@ -6,17 +6,8 @@ body{
     position: absolute;
 }
 
-body#fon{
-    background-image: url(../progect02/img/image\ 14fon-plus.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-}
-
 body#else{
     height: 350vh;
-    background-image: url(../progect02/img/image\ 17fon.png);
-    background-size: 550px, 500px;
     background-color: transparent 50%;
 }
 
