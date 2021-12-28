@@ -106,7 +106,6 @@
 
 .navbar-brand{
     font-family: Miss Fajardose;
-    font-size: 44px;
 }
 
 body{
@@ -121,8 +120,7 @@ body{
 
 .btn{
     text-align: center;
-    font-size: 28px;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .link-light{
