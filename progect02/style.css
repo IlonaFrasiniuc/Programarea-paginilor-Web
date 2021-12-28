@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
 *{
     margin: 0 0 0 0;
 }
@@ -35,13 +37,14 @@ header nav a{
     text-decoration: none;
     color: black;
     font-size: 36px;
+    font-family: "Old Standard TT";
 }
 
 section#main h1#main{
     text-align: center;
     color: #0D333A;
     font-size: 100px;
-    font-family: "Brush Script MT", cursive;
+    font-family: "Mea Culpa";
     line-height: 150px;
 }
 
@@ -51,6 +54,7 @@ section#main p#q{
     font-style: italic;
     color: #0D333A;
     font-size: 20px;
+    font-family: "Old Standard TT";
 }
 
 .art{
@@ -66,10 +70,12 @@ section#main p#q{
     color: #0D333A;
     font-size: 48px;
     font-style: inherit;
+    font-family: "Old Standard TT";
 }
 
 .art article p {
     font-size: 18px;
+    font-family: "Old Standard TT";
 }
 
 .offer{
@@ -79,7 +85,7 @@ section#main p#q{
 
 .offer h1{
     color: #103B43;
-    font-family: Old Standard TT;
+    font-family: "Old Standard TT";
     font-style: italic;
     font-weight: normal;
     font-size: 48px;
@@ -88,7 +94,7 @@ section#main p#q{
 }
 
 .offer h5{
-    font-family: Old Standard TT;
+    font-family: "Old Standard TT";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -97,7 +103,7 @@ section#main p#q{
 
 .offer h3{
     margin-top: 10px;
-    font-family: Old Standard TT;
+    font-family: "Old Standard TT";
     font-style: italic;
     font-weight: normal;
     color: #103B43;
@@ -107,7 +113,7 @@ section#main p#q{
 
 .offer article#use ul{
     margin-top: 23px;
-    font-family: Old Standard TT;
+    font-family: "Old Standard TT";
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -123,7 +129,7 @@ section#main p#q{
 }
 
 .offer h3#else{
-    font-family: Roboto;
+    font-family: "Old Standard TT";
     font-style: italic;
     font-weight: normal;
     font-size: 28px;
@@ -141,7 +147,7 @@ section#main p#q{
     font-size: 24px;
     color: #103B43;
     font-weight: normal;
-
+    font-family: "Old Standard TT";
 }
 
 div form{
@@ -150,6 +156,7 @@ div form{
 }
 
 form input{
+    font-family: "Old Standard TT";
     color: white;
     font-size: 36px;
     width: 1200px;
@@ -158,13 +165,6 @@ form input{
     border: 0.5px solid #6D8C92;
     background: #6D8C92;
 }
-   /* transition: .3s linear;
-}
-
-form input:focus{
-    border: 0.5px solid #6D8C92;;
-    width: 1298px;
-}*/
 
 footer{
     position: absolute;
@@ -174,6 +174,7 @@ footer{
     display: grid;
     align-items: center;
     height: 103px;
+    font-family: "Old Standard TT";
     background-color: #475E63;
     color: white;
     display: grid;
@@ -198,6 +199,7 @@ footer .icon{
     text-decoration: none;
     margin-left: 20px;
     margin-top: 15px;
+    font-family: "Old Standard TT";
 }
 
 .art-country{
@@ -210,7 +212,7 @@ h1{
     font-size: 40px;
     margin-left: 100px;
     margin-top: 30px;
-    font-family: Old Standard TT;
+    font-family: "Old Standard TT";
     font-style: italic;
     font-weight: normal;
 }
