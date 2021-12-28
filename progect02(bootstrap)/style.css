@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Miss+Fajardose&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
-*{
-    margin-left: 0px;
-}
 
 .mt-15{
     margin-top: 15px;
@@ -96,14 +93,6 @@
     margin-right: 115px ;
 }
 
-
-
-
-
-.navbar{
-    background-color: #7B9588;
-}
-
 .navbar-brand{
     font-family: Miss Fajardose;
 }
@@ -115,16 +104,6 @@ body{
 .h1-main{
     font-family: Miss Fajardose;
     font-size: 150px;
-    text-align: center;
-}
-
-.btn{
-    text-align: center;
-    /*font-weight: bold;*/
-}
-
-.link-light{
-    text-decoration: none;
 }
 
 .px-70{
@@ -133,14 +112,10 @@ body{
 }
 
 .h5{
-    font-size: 30px;
-    font-weight: normal;
     font-family: "Maven Pro";
 }
 
 .nav{
-    background-color: #7B9588;
-    font-size: 24px;
     font-family: "Maven Pro";
 }
 
