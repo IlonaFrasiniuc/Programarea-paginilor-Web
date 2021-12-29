@@ -3,23 +3,21 @@
 *{
     margin: 0 0 0 0;
 }
+
+/*Home page*/
+
 body{
     height: 130vh;
     position: absolute;
 }
 
-body#else{
-    height: 350vh;
-    background-color: transparent 50%;
+a, p,h2,h1,h5,h3, ul,h6, input,footer{
+    font-family: "Old Standard TT";
 }
 
-body#elses{
-    height: 350vh;
-}
+/*Header for all pages*/
 
 header{
-    display: grid;
-    grid-template-columns: 1fr;
     background-color: #6697A0;
     height: 142px;
     align-items: center;
@@ -33,12 +31,40 @@ header nav{
 }
 
 header nav a{
+    margin-top: 20px;
     text-align: center;
     text-decoration: none;
     color: black;
     font-size: 36px;
-    font-family: "Old Standard TT";
 }
+
+/*Footer for all pages*/
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    align-items: center;
+    height: 103px;
+    background-color: #475E63;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 800px;
+}
+
+footer #adress{
+    margin-left: 20px;
+}
+
+footer .icon{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+}
+
+/*Body 1st page*/
 
 section#main h1#main{
     text-align: center;
@@ -54,38 +80,34 @@ section#main p#q{
     font-style: italic;
     color: #0D333A;
     font-size: 20px;
-    font-family: "Old Standard TT";
 }
 
-.art{
+.articles{
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     margin-left: 11%;
-    align-items: flex-start;
 }
 
-.art article h2{
+.articles article h2{
     color: #0D333A;
     font-size: 48px;
-    font-style: inherit;
-    font-family: "Old Standard TT";
 }
 
-.art article p {
+.articles article p {
     font-size: 18px;
-    font-family: "Old Standard TT";
 }
 
-.offer{
+/*Body 2nd page*/
+
+.useful-information{
     margin-left: 40px;
     margin-top: 40px;
 }
 
-.offer h1{
+h1{
     color: #103B43;
-    font-family: "Old Standard TT";
     font-style: italic;
     font-weight: normal;
     font-size: 48px;
@@ -93,70 +115,65 @@ section#main p#q{
     margin-left: 95px;
 }
 
-.offer h5{
-    font-family: "Old Standard TT";
+h5{
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     margin-left: 75px;
 }
 
-.offer h3{
+h3{
     margin-top: 10px;
-    font-family: "Old Standard TT";
     font-style: italic;
     font-weight: normal;
     color: #103B43;
-    font-size: 48px;
+    font-size: 36px;
     margin-left: 53px;
 }
 
-.offer article#use ul{
+.useful-information article ul{
     margin-top: 23px;
-    font-family: "Old Standard TT";
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
 }
 
-.offer img{
+.useful-information img{
     margin-top: 15px;
 }
 
-.offer article#use{
+.useful-information article{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.offer h3#else{
-    font-family: "Old Standard TT";
-    font-style: italic;
-    font-weight: normal;
-    font-size: 28px;
+/*Body 3rd page*/
+
+body#long{
+    height: 350vh;
 }
 
-.offer .ideas {
+.offers{
     margin-right: 100px;
     margin-left: 40px;
-    
 }
 
-.offer .ideas h6{
+h6{
     margin-top: 25px;
     margin-bottom: 10px;
     font-size: 24px;
     color: #103B43;
     font-weight: normal;
-    font-family: "Old Standard TT";
 }
+
+/*Body 4th page*/
 
 div form{
     margin-top: 15px;
-   margin-left: 48px;
+    margin-left: 48px;
 }
 
 form input{
-    font-family: "Old Standard TT";
     color: white;
     font-size: 36px;
     width: 1200px;
@@ -166,65 +183,19 @@ form input{
     background: #6D8C92;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: grid;
-    align-items: center;
-    height: 103px;
-    font-family: "Old Standard TT";
-    background-color: #475E63;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 800px;
-}
-
-footer section#adress{
-    margin-left: 20px;
-}
-
-footer .icon{
-    display: grid;
-    grid-template-columns: repeat(4, 80px);
-}
-
-.country{
-    color: #103B43;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    margin-left: 20px;
-    margin-top: 15px;
-    font-family: "Old Standard TT";
-}
-
 .art-country{
     margin-left: 150px;
     margin-right: 150px;
 }
 
-h1{
-    color: #103B43;
-    font-size: 40px;
-    margin-left: 100px;
-    margin-top: 30px;
-    font-family: "Old Standard TT";
-    font-style: italic;
-    font-weight: normal;
-}
-
-.german{
+.german-img{
     display: grid;
     grid-template-columns: repeat(2, 450px);
     align-items: center;
     margin-left: 150px;
 }
 
-.france{
+.france-img{
     display: grid;
     grid-template-columns: repeat(2, 400px);
     grid-template-rows: repeat(2, 1fr);
@@ -234,7 +205,7 @@ h1{
     margin-left: 130px;
 }
 
-#th{
+#france-img-center{
     margin-left: 250px;
 }
 
