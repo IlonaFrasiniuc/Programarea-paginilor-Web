@@ -38,6 +38,10 @@ header nav a{
     font-size: 36px;
 }
 
+#active{
+    color: white;
+}
+
 /*Footer for all pages*/
 
 footer{
