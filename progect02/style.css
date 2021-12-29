@@ -185,14 +185,14 @@ div form{
 /*Search bar*/
 
 form input{
-    color: white;
+    color: #0D333A;
     font-size: 36px;
     width: 900px;
     height: 77.07px;
     border-radius: 42px;
-    border: 0.5px solid #6D8C92;
-    background: #6D8C92;
-    transition: width .60s;
+    border: 3px solid #6697A0;
+    background: #6697A0;
+    transition: all .60s;
 }
 
 form input::placeholder{
@@ -202,7 +202,8 @@ form input::placeholder{
 form input:focus{
     width: 1200px;
     outline: none;
-    border: 0.5px solid #6D8C92;
+    border: 2px solid #8faaaf;
+    background: #bac6c9;
 }
 /*Search bar (end)*/
 
