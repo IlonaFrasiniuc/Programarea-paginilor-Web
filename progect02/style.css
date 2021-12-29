@@ -89,10 +89,7 @@ section#main h1#main:hover{
 	-webkit-background-clip: text;
 	background-clip: text;
 	background-image: linear-gradient(90deg, #0cd2b9, rgb(15, 95, 109), rgb(12, 83, 110));
-
 }
-
-
 
 section#main p#q{
     margin-right: 365px;
