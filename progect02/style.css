@@ -36,6 +36,11 @@ header nav a{
     text-decoration: none;
     color: black;
     font-size: 36px;
+    transition: color .5s;
+}
+
+header nav a:hover{
+    color: rgb(212, 236, 238);
 }
 
 #active{
@@ -177,15 +182,29 @@ div form{
     margin-left: 48px;
 }
 
+/*Search bar*/
+
 form input{
     color: white;
     font-size: 36px;
-    width: 1200px;
+    width: 900px;
     height: 77.07px;
     border-radius: 42px;
     border: 0.5px solid #6D8C92;
     background: #6D8C92;
+    transition: width .60s;
 }
+
+form input::placeholder{
+    color: rgb(212, 236, 238);
+}
+
+form input:focus{
+    width: 1200px;
+    outline: none;
+    border: 0.5px solid #6D8C92;
+}
+/*Search bar (end)*/
 
 .art-country{
     margin-left: 150px;
