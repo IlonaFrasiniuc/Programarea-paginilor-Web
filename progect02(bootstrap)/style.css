@@ -93,7 +93,7 @@
     margin-right: 115px ;
 }
 
-.navbar-brand{
+.navbar-brand, .h1-main{
     font-family: Miss Fajardose;
 }
 
@@ -102,7 +102,6 @@ body{
 }
 
 .h1-main{
-    font-family: Miss Fajardose;
     font-size: 150px;
 }
 
@@ -111,14 +110,6 @@ body{
     padding-right: 70px;
 }
 
-.h5{
-    font-family: "Maven Pro";
-}
-
-.nav{
-    font-family: "Maven Pro";
-}
-
-p{
+.h5, .nav, p{
     font-family: "Maven Pro";
 }
