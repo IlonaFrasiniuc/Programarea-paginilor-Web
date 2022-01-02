@@ -73,6 +73,42 @@ footer .icon{
     grid-template-columns: repeat(4, 80px);
 }
 
+.vk{
+    background-image: url(img/image\ 18icon.VK.png);
+    background-repeat: no-repeat;
+}
+
+.vk:hover{
+    background-image: url(img/VK.svg);
+}
+
+.facebook{
+    background-image: url(img/Mask\ GroupICON.FACEBOOK.png);
+    background-repeat: no-repeat;
+}
+
+.facebook:hover{
+    background-image: url(img/Facebook.svg);
+}
+
+.instagram{
+    background-image: url(img/Mask\ GroupICON.INSTAGRAM.png);
+    background-repeat: no-repeat;
+}
+
+.instagram:hover{
+    background-image: url(img/Instagram.svg);
+}
+
+.youtube{
+    background-image: url(img/Mask\ GroupICON.YOUTUBE.png);
+    background-repeat: no-repeat;
+}
+
+.youtube:hover{
+    background-image: url(img/YouTube.svg);
+}
+
 /*Body 1st page*/
 
 section#main h1#main{
