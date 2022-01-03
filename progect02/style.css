@@ -70,7 +70,7 @@ footer #adress{
 
 footer .icon{
     display: grid;
-    grid-template-columns: repeat(5, 80px);
+    grid-template-columns: repeat(6, 80px);
 }
 
 .vk{
@@ -107,6 +107,15 @@ footer .icon{
 
 .youtube:hover{
     background-image: url(img/YouTube.svg);
+}
+
+.git{
+    background-image: url(img/GitHub.svg);
+    background-repeat: no-repeat;
+}
+
+.git:hover{
+    background-image: url(img/git.png);
 }
 
 /*Body 1st page*/
