@@ -165,3 +165,30 @@
         align-items: flex-start
     }
 }
+
+@media(max-width: 333px){
+    .h1-main{
+        font-size: 430%;
+    }
+
+    .header{
+        position:fixed;
+        margin-top: -50%;
+    }
+
+    .section, .information, .help{
+        margin-top: 50%;
+    }
+
+    .main-button{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1405px){
+    .information img{
+        width: 90%;
+        height: auto;
+        align-items: center;
+    }
+}
