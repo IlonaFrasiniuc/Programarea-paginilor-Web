@@ -146,7 +146,9 @@
     }
 
     .information img{
-        height: 50%;
+        width: 100%;
+        height: auto;
+        align-items: center;
     }
 
     .header{
@@ -160,5 +162,14 @@
 
     .information{
         margin-top: 40%;
+    }
+
+    .info{
+        display: flex;
+        align-items: flex-start
+    }
+
+    .col-sm-12{
+        height: 500px;
     }
 }
