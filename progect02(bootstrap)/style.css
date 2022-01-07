@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Miss+Fajardose&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 
+*{
+    margin: 0px 0px 0px 0px;
+}
+
 .mt-15{
     margin-top: 15px;
 }
@@ -109,7 +113,8 @@
     font-family: Miss Fajardose;
 }
 
-body{
+.body{
+    background-image: url("img/zyro-image_photo-resizer.ru (3).png");
     background-repeat: no-repeat;
 }
 
@@ -124,4 +129,36 @@ body{
 
 .h5, .nav, p{
     font-family: "Maven Pro";
+}
+
+.btn{
+    margin-left: 10%;
+}
+
+@media(max-width: 500px){
+    .body{
+        background-image: url("img/main\ \(5\).jpg");
+        background-repeat: no-repeat;
+    }
+
+    .h1-main{
+        font-size: 600%;
+    }
+
+    .information img{
+        height: 50%;
+    }
+
+    .header{
+        position:fixed;
+        margin-top: -40%;
+    }
+
+    .section{
+        margin-top: 40%;
+    }
+
+    .information{
+        margin-top: 40%;
+    }
 }
