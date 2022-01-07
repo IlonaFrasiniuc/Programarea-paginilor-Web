@@ -156,20 +156,12 @@
         margin-top: -40%;
     }
 
-    .section{
-        margin-top: 40%;
-    }
-
-    .information{
+    .section, .information, .help{
         margin-top: 40%;
     }
 
     .info{
         display: flex;
         align-items: flex-start
-    }
-
-    .col-sm-12{
-        height: 500px;
     }
 }
