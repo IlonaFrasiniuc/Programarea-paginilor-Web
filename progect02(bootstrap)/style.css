@@ -187,7 +187,7 @@
 
 @media(max-width: 1405px){
     .information img{
-        width: 90%;
+        width: 100%;
         height: auto;
         align-items: center;
     }
