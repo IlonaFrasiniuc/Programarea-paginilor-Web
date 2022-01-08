@@ -11,7 +11,7 @@ body{
     position: absolute;
 }
 
-a, p,h2,h1,h5,h3, ul,h6, input,footer{
+a, p, h2, h1, h5, h3, ul, ol, h6, input, footer{
     font-family: "Old Standard TT";
 }
 
@@ -172,6 +172,11 @@ section#main p#q{
     margin-top: 40px;
 }
 
+.img{
+    margin-top: 15px;
+    text-align: center;
+}
+
 h1{
     color: #103B43;
     font-style: italic;
@@ -222,6 +227,7 @@ body#long{
 .offers{
     margin-right: 100px;
     margin-left: 40px;
+    margin-top: 40px;
 }
 
 h6{
@@ -296,4 +302,52 @@ form input:focus{
 #greece{
     margin-left: 13%;
     margin-top: 15px;
+}
+
+/*Body 5th page*/
+
+body#about-us{
+    height: 160vh;
+    position: absolute;
+}
+
+.about-us{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.about-us ol{
+    margin-top: 23px;
+    margin-right: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.about-us ol li{
+    margin-bottom: 10px;
+}
+
+.about-us form input#about-us{
+    color: #0D333A;
+    font-size: 26px;
+    width: 712px;
+    height: 54px;
+    border-radius: 42px;
+    border: 3px solid #6697A0;
+    background: #6697A0;
+    transition: all .60s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form input#about-us::placeholder{
+    color: rgb(212, 236, 238);
+}
+
+form input#about-us:focus{
+    width: 812px;
+    outline: none;
+    border: 2px solid #8faaaf;
+    background: #bac6c9;
 }
