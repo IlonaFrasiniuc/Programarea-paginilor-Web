@@ -21,17 +21,20 @@ header{
     background-color: #6697A0;
     height: 142px;
     align-items: center;
-    padding-left: 210px;
-    padding-right: 210px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
+
+
 
 header nav{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 header nav a{
     margin-top: 20px;
+    margin-right: 30px;
     text-align: center;
     text-decoration: none;
     color: black;
