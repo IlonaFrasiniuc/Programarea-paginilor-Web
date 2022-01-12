@@ -85,6 +85,10 @@
     margin-left: 450px;
 }
 
+.ml-pr-10{
+    margin-left: 10%;
+}
+
 .mr-0{
     margin-right: 0px;
 }
@@ -136,12 +140,12 @@
     padding-right: 70px;
 }
 
-.h5, .nav, p{
+.h5, .nav, p, ol, input, .btn-other, .btn{
     font-family: "Maven Pro";
 }
 
-.btn{
-    margin-left: 10%;
+.form-control::placeholder{
+    color: rgb(212, 236, 238);
 }
 
 @media(max-width: 500px){
