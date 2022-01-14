@@ -89,6 +89,10 @@
     margin-left: 10%;
 }
 
+.ml-pr-15{
+    margin-left: 15%;
+}
+
 .mr-0{
     margin-right: 0px;
 }
@@ -166,11 +170,15 @@
 
     .header{
         position:fixed;
-        margin-top: -40%;
+        margin-top: -50%;
+    }
+
+    .nav-link{
+        font-size: 20px;
     }
 
     .section, .information, .help{
-        margin-top: 40%;
+        margin-top: 50%;
     }
 
     .info{
@@ -208,4 +216,9 @@
         height: auto;
         align-items: center;
     }
+
+    p.img{
+        margin-bottom: 36%;
+    }
+
 }
