@@ -124,7 +124,11 @@ footer .icon{
 
 /*Body 1st page*/
 
-section .main .main-h1{
+.main-body{
+    background-image: url(https://sun9-7.userapi.com/impg/kpl3UxxMMsB-rzgMyXS6XcehvxYfqhOf-dAcgA/02sdVeWaXZw.jpg?size=1600x941&quality=96&sign=a47da584e362bf07d15ced629640e973&type=album);
+}
+
+.main .crociera{
     text-align: center;
     color: #0D333A;
     font-size: 100px;
@@ -133,7 +137,7 @@ section .main .main-h1{
     transition: all .7s;
 }
 
-.main .main-h1:hover{
+.main .crociera:hover{
     color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
