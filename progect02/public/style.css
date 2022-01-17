@@ -67,7 +67,7 @@ footer{
     column-gap: 800px;
 }
 
-footer #adress{
+footer .adress{
     margin-left: 20px;
 }
 
@@ -80,61 +80,55 @@ footer .icon{
 .vk{
     background-image: url(img/image\ 18icon.VK.png);
     background-repeat: no-repeat;
-    height: 46px;
 }
 
 .vk:hover{
     background-image: url(img/VK.svg);
-    height: 46px;
 }
 
 .facebook{
     background-image: url(img/Mask\ GroupICON.FACEBOOK.png);
     background-repeat: no-repeat;
-    height: 46px;
 }
 
 .facebook:hover{
     background-image: url(img/Facebook.svg);
-    height: 46px;
 }
 
 .instagram{
     background-image: url(img/Mask\ GroupICON.INSTAGRAM.png);
     background-repeat: no-repeat;
-    height: 46px;
 }
 
 .instagram:hover{
     background-image: url(img/Instagram.svg);
-    height: 46px;
 }
 
 .youtube{
     background-image: url(img/Mask\ GroupICON.YOUTUBE.png);
     background-repeat: no-repeat;
-    height: 46px;
 }
 
 .youtube:hover{
     background-image: url(img/YouTube.svg);
-    height: 46px;
 }
 
 .git{
     background-image: url(img/GitHub.svg);
     background-repeat: no-repeat;
-    height: 46px;
 }
 
 .git:hover{
     background-image: url(img/git.png);
-    height: 46px;
 }
 
 /*Body 1st page*/
 
-section#main h1#main{
+.main-body{
+    background-image: url(https://sun9-7.userapi.com/impg/kpl3UxxMMsB-rzgMyXS6XcehvxYfqhOf-dAcgA/02sdVeWaXZw.jpg?size=1600x941&quality=96&sign=a47da584e362bf07d15ced629640e973&type=album);
+}
+
+.main .crociera{
     text-align: center;
     color: #0D333A;
     font-size: 100px;
@@ -143,14 +137,14 @@ section#main h1#main{
     transition: all .7s;
 }
 
-section#main h1#main:hover{
+.main .crociera:hover{
     color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
 	background-image: linear-gradient(90deg, #0cd2b9, rgb(15, 95, 109), rgb(12, 83, 110));
 }
 
-section#main p#q{
+.main .q{
     margin-right: 365px;
     text-align: right;
     font-style: italic;
@@ -287,14 +281,14 @@ form input:focus{
     margin-right: 150px;
 }
 
-.german-img{
+.german{
     display: grid;
     grid-template-columns: repeat(2, 450px);
     align-items: center;
     margin-left: 150px;
 }
 
-.france-img{
+.france{
     display: grid;
     grid-template-columns: repeat(2, 400px);
     grid-template-rows: repeat(2, 1fr);
@@ -305,7 +299,7 @@ form input:focus{
     margin-top: 15px;
 }
 
-#france-img-center{
+#france{
     margin-left: 250px;
 }
 
@@ -316,17 +310,17 @@ form input:focus{
 
 /*Body 5th page*/
 
-body#about-us{
+body#about{
     height: 160vh;
     position: absolute;
 }
 
-.about-us{
+.about{
     margin-left: 40px;
     margin-top: 40px;
 }
 
-.about-us ol{
+.about ol{
     margin-top: 23px;
     margin-right: 100px;
     font-style: normal;
@@ -334,11 +328,11 @@ body#about-us{
     font-size: 28px;
 }
 
-.about-us ol li{
+.about ol li{
     margin-bottom: 10px;
 }
 
-.about-us form input#about-us{
+.about form input#aboutus{
     color: #0D333A;
     font-size: 26px;
     width: 712px;
@@ -351,11 +345,11 @@ body#about-us{
     margin-top: 20px;
 }
 
-form input#about-us::placeholder{
+form input#aboutus::placeholder{
     color: rgb(212, 236, 238);
 }
 
-form input#about-us:focus{
+form input#about:focus{
     width: 812px;
     outline: none;
     border: 2px solid #8faaaf;
