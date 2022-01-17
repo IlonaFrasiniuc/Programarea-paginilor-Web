@@ -1,1 +1,0 @@
-<button type="button" class="btn text-center ml-pr-10 btn-outline-light fw-bold fs-3 mt-200 px-70 border-3 rounded-3"><a href="page1.html" class="main-button link-light text-decoration-none">get new<br>sensations</a></button>
